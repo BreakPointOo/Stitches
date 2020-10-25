@@ -100,6 +100,56 @@ ShadeSmooth:平滑所选物体 在该命令执行后可以按角度自动分光�
 
 根据点/线/面模式自动切换	删除点/线/面	溶解点/线/面
 
+#### 编辑工具集
+
+![image-20201025113631984](https://raw.githubusercontent.com/BreakPointOo/FigureBed/main/img/image-20201025113631984.png)
+
+Mark Seam(Clear Seam)：标记/清除UV剪切线
+
+Mark Sharp(Clear Sharp)：标记/清除硬边
+
+Both(Clear)：同时标记/清除UV剪切线和硬边
+
+Flatten：拍平面
+
+Circle：将选中的环线圆化
+
+Merge By Distance：根据距离合点
+
+Merge At Center：居中合并点
+
+Collapse：将所选线依次塌陷为点
+
+Set Edge Flow：平滑所选线
+
+Separate：将所选组件分离
+
+Isolate：独立显示所选组件
+
+#### UV工具集
+
+![image-20201025120803295](https://raw.githubusercontent.com/BreakPointOo/FigureBed/main/img/image-20201025120803295.png)
+
+Align UV Island：选中UV岛的一条边，按照这条边的角度将UV岛转正
+
+Pack UV Island：自动排布UV岛为方形 Rotate：是否允许旋转UV岛 Threshold：排布阈值
+
+select Overlapped：选择重叠的UV
+
+Select Flipped：选择反面UV
+
+Split：分离所选组件
+
+Stitch：缝合所选组件
+
+Weld：合并所选组件
+
+Align：auto：自动旋转摆正UV岛	X：沿x轴方向摆正UV岛	Y：沿y轴方向摆正UV岛
+
+Mirror：沿X/Y轴方向镜像旋转
+
+
+
 ## License
 
 Just use it as you like.
